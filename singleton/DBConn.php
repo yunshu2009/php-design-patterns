@@ -1,5 +1,7 @@
 <?php
 
+// 单例模式
+
 class DBConn
 {
     private static $instance = null;
