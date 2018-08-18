@@ -1,6 +1,6 @@
 <?php
 
-// 工厂模式：提供一个共同的接口来创建类的实例。
+// 简单工厂模式：提供一个公共的接口来创建类的实例。
 //参考：http://www.runoob.com/design-pattern/factory-pattern.html
 
 interface Shape 
@@ -35,7 +35,8 @@ class Circle implements Shape
 class ShapeFactory 
 {   
    //使用 getShape 方法获取形状类型的对象
-   public function getShape($shapeType)
+   // 所有相关类的实例都在这个方法里创建
+   public static function getShape($shapeType)
    {
       if ($shapeType == null){
          return null;
@@ -53,4 +54,4 @@ class ShapeFactory
    }
 }
 
-(new ShapeFactory())->getShape('CIRCLE')->draw();    //Inside Circle::draw() method
+ShapeFactory::getShape('CIRCLE')->draw();    //Inside Circle::draw() method
