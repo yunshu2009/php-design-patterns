@@ -4,20 +4,24 @@
 
 ## 创建型模式
 
-- [x] 单例模式
-- [x] 简单工厂模式
-- [x] 工厂方法模式
-- [ ] 抽象工厂模式
+- [x] 单例模式 （singleton/DBConn.php）
+- [x] 简单工厂模式 （factory/simplefactory.php)
+- [x] 工厂方法模式  (factory/factorymethod.php)
+- [x] 抽象工厂模式 (abstract-factory/factory.php)
 - [ ] 建造者模式
 - [ ] 原型模式
 
 
 ## 结构型模式
 
-- [x] 装饰器模式
+- [x] 装饰器模式  (decorator/User.php)
+- [x] 适配器模式  (adpater/)
 
 
 ## 行为型模式
 
-- [x] 迭代器模式
+- [x] 迭代器模式  （iterator/User.php）
+- [x] 中介者模式  （mediator/）
+- [x] 模板模式  （template/）
+
 

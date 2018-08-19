@@ -1,6 +1,6 @@
 <?php
 
-// 简单工厂模式：提供一个公共的接口来创建类的实例。
+// 简单工厂模式：提供一个公共的接口来创建类的实例。同一个类创建多个类实例。
 //参考：http://www.runoob.com/design-pattern/factory-pattern.html
 
 interface Shape 
