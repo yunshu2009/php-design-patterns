@@ -8,7 +8,7 @@
 - [x] 简单工厂模式 （factory/simplefactory.php)
 - [x] 工厂方法模式  (factory/factorymethod.php)
 - [x] 抽象工厂模式 (abstract-factory/factory.php)
-- [ ] 建造者模式
+- [x] 建造者模式 (builder/)
 - [ ] 原型模式
 
 
