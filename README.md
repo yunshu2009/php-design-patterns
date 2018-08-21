@@ -16,8 +16,10 @@
 
 - [x] 装饰器模式  (decorator/User.php)
 - [x] 适配器模式  (adpater/)
-- [ ] 桥接模式
-
+- [x] 桥接模式（bridge/）
+- [x] 组合模式 （composite/）
+- [x] 门面模式 （facade/）
+- [ ] 代理模式 （proxy/）
 
 ## 行为型模式
 
