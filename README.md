@@ -9,13 +9,14 @@
 - [x] 工厂方法模式  (factory/factorymethod.php)
 - [x] 抽象工厂模式 (abstract-factory/factory.php)
 - [x] 建造者模式 (builder/)
-- [ ] 原型模式
+- [x] 原型模式 (protoype/)
 
 
 ## 结构型模式
 
 - [x] 装饰器模式  (decorator/User.php)
 - [x] 适配器模式  (adpater/)
+- [ ] 桥接模式
 
 
 ## 行为型模式
