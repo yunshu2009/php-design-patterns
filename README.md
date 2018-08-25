@@ -19,12 +19,14 @@
 - [x] 桥接模式（bridge/）
 - [x] 组合模式 （composite/）
 - [x] 门面模式 （facade/）
-- [ ] 代理模式 （proxy/）
+- [x] 代理模式 （proxy/）
+- [x] 委托模式 （delegate/）
 
 ## 行为型模式
 
 - [x] 迭代器模式  （iterator/User.php）
 - [x] 中介者模式  （mediator/）
 - [x] 模板模式  （template/）
+- [x] 解释器模式 （interpreter/）
 
 
