@@ -2,7 +2,7 @@
 
 //事件发生通知关联对象处理
 
-class User implements SplSubject
+class User implements \SplSubject
 {
     public $email;
     private $observers;
@@ -37,7 +37,7 @@ class User implements SplSubject
     }
 }
 
-class UserEmailObserver implements SplObserver
+class UserEmailObserver implements \SplObserver
 {
     public function update(\SplSubject $subject)
     {
