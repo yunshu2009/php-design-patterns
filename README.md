@@ -28,5 +28,5 @@
 - [x] 中介者模式  （mediator/）
 - [x] 模板模式  （template/）
 - [x] 解释器模式 （interpreter/）
-
+- [x] 观察者模式 （observer/)
 
