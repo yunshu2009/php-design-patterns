@@ -30,3 +30,4 @@
 - [x] 解释器模式 （interpreter/）
 - [x] 观察者模式 （observer/)
 - [x] 命令模式 （command/) 
+- [x] 访问者模式 （vistor/) 
