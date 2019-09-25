@@ -27,7 +27,6 @@ class DBConn
 
     private function __clone()
     {
-
     }
 
     private function connect()
@@ -50,5 +49,3 @@ var_dump($instance1 == $instance2);
 connected: 1
 bool(true)
 */
-
-

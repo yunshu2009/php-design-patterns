@@ -1,7 +1,7 @@
 <?php
 
 // 简单工厂模式：提供一个公共的接口来创建类的实例。同一个类创建多个类实例。
-//参考：http://www.runoob.com/design-pattern/factory-pattern.html
+// 参考：http://www.runoob.com/design-pattern/factory-pattern.html
 
 interface Shape 
 {
@@ -39,7 +39,7 @@ class ShapeFactory
    public static function getShape($shapeType)
    {
       if ($shapeType == null){
-         return null;
+         throw new RuntimeException('share type error');
       }  
 
       if($shapeType == "CIRCLE") {

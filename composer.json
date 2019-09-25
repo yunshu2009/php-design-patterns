@@ -1,0 +1,23 @@
+{
+    "name": "yunshu2009/php-design-patterns",
+    "description": "php design patterns",
+    "keywords": ["php","design-patterns"],
+    "type": "project",
+    "homepage": "https://github.com/yunshu2009/php-design-patterns",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yunshu",
+            "email": "yunshu.luo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alfred\\DesignPatterns\\": ""
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
